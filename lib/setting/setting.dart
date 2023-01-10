@@ -85,14 +85,16 @@ class SecondRoute extends StatelessWidget {
           children: <Widget>[
             Container(
               height: 50,
-              color: Color.fromARGB(255, 253, 253, 253),
+              color: Color.fromARGB(255, 255, 255, 255),
               padding: EdgeInsets.only(left: 10),
               child: const Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
                     'My Account',
                     style: TextStyle(
-                        letterSpacing: 0.5, fontWeight: FontWeight.bold),
+                        letterSpacing: 0.5,
+                        fontWeight: FontWeight.bold,
+                        color: Color.fromARGB(255, 103, 98, 98)),
                   )),
             ),
             InkWell(
@@ -158,7 +160,9 @@ class SecondRoute extends StatelessWidget {
                   child: Text(
                     'How to Use',
                     style: TextStyle(
-                        letterSpacing: 0.5, fontWeight: FontWeight.bold),
+                        letterSpacing: 0.5,
+                        fontWeight: FontWeight.bold,
+                        color: Color.fromARGB(255, 103, 98, 98)),
                   )),
             ),
             InkWell(
@@ -233,7 +237,9 @@ class SecondRoute extends StatelessWidget {
                   child: Text(
                     'Support & Feedback',
                     style: TextStyle(
-                        letterSpacing: 0.5, fontWeight: FontWeight.bold),
+                        letterSpacing: 0.5,
+                        fontWeight: FontWeight.bold,
+                        color: Color.fromARGB(255, 103, 98, 98)),
                   )),
             ),
             InkWell(
@@ -310,7 +316,9 @@ class SecondRoute extends StatelessWidget {
                   child: Text(
                     'More About us',
                     style: TextStyle(
-                        letterSpacing: 0.5, fontWeight: FontWeight.bold),
+                        letterSpacing: 0.5,
+                        fontWeight: FontWeight.bold,
+                        color: Color.fromARGB(255, 103, 98, 98)),
                   )),
             ),
             InkWell(
@@ -339,12 +347,13 @@ class SecondRoute extends StatelessWidget {
 
                 padding: EdgeInsets.only(left: 30),
                 child: const Align(
-                    alignment: Alignment.centerLeft,
-                    child: Text(
-                      'About us',
-                      style: TextStyle(
-                          letterSpacing: 0.5, fontWeight: FontWeight.bold),
-                    )),
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    'About us',
+                    style: TextStyle(
+                        letterSpacing: 0.5, fontWeight: FontWeight.bold),
+                  ),
+                ),
               ),
             ),
             InkWell(
