@@ -23,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(0, 41, 55, 78),
+      backgroundColor: Color.fromARGB(255, 35, 48, 67),
       body: Container(
         width: double.infinity,
         height: double.infinity,
@@ -44,15 +44,15 @@ class _SplashScreenState extends State<SplashScreen> {
             Column(
               children: [
                 Image.asset(
-                  'assets/logo_call.png',
+                  'assets/logo-bgr.png',
                   height: 200.0,
                   width: 200.0,
                 ),
                 Text(
-                  "A whole grocery store\n at your fingertips",
+                  "ResumeBuilder ",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    // color: Colors.white,
+                    color: Colors.white,
                     fontWeight: FontWeight.bold,
                     fontSize: 18.0,
                   ),
@@ -61,7 +61,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             CircularProgressIndicator(
               valueColor: AlwaysStoppedAnimation<Color>(
-                  Color.fromARGB(255, 65, 63, 192)),
+                  Color.fromARGB(255, 35, 48, 67)),
             ),
           ],
         ),

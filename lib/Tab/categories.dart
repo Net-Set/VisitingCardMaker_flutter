@@ -16,6 +16,9 @@ class categories extends StatelessWidget {
     );
   }
 }
+//application related content adding function //:
+
+
 
 class MyWidget extends StatelessWidget {
   @override

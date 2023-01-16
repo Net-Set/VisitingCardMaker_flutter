@@ -40,6 +40,14 @@ class MyHomePage extends StatelessWidget {
       body: const Center(
         child: Text('My Page!'),
       ),
+
+      //http.get()
+      //import 'package:http/http.dart' as http;
+      //
+      //         Future<http.Response> fetchAlbum() {
+      // return http.get('https://jsonplaceholder.typicode.com/albums/1');
+      // }
+
       // drawer: Drawer(
       //   // Add a ListView to the drawer. This ensures the user can scroll
       //   // through the options in the drawer if there isn't enough vertical

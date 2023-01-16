@@ -40,6 +40,15 @@ class MyHomePage extends StatelessWidget {
       body: const Center(
         child: Text('My Page!'),
       ),
+
+        //           Rate Us
+        //           import 'package:in_app_review/in_app_review.dart';
+
+        // final InAppReview inAppReview = InAppReview.instance;
+
+        // if (await inAppReview.isAvailable()) {
+        //     inAppReview.requestReview();
+        // }
       // drawer: Drawer(
       //   // Add a ListView to the drawer. This ensures the user can scroll
       //   // through the options in the drawer if there isn't enough vertical

@@ -1,12 +1,14 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:resumebuilder/ApiTesting.dart';
 import 'package:resumebuilder/Tab/categories.dart';
 import 'package:resumebuilder/Tab/feature.dart';
 import 'package:resumebuilder/Tab/list_categories.dart';
 import 'package:resumebuilder/Tab/mydesign.dart';
 import 'package:resumebuilder/Tab/search_categories.dart';
 import 'package:resumebuilder/Testing_layout.dart';
+import 'package:resumebuilder/resume_layout.dart';
 import 'package:resumebuilder/setting/setting.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -86,7 +88,7 @@ class TabBarDemo extends StatelessWidget {
             ),
             body: TabBarView(
               children: [
-                imagelayout(),
+                ProfileFourPage(),
                 searchcategories(),
                 mydesign(),
               ],

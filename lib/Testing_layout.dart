@@ -244,6 +244,9 @@ class MyHomePage extends StatelessWidget {
 
                 child: Column(children: <Widget>[
                   Image.network(a[index]),
+
+                  //array list in adding log in array postion rleated code //:
+                  
                   // loremIpsum,
                   // style: TextStyle(color: Colors.black.withOpacity(0.6)),
                 ]),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:resumebuilder/home_main.dart';
-import 'package:resumebuilder/main.dart';
 import 'package:resumebuilder/setting_page/aboutUs.dart';
 import 'package:resumebuilder/setting_page/allPremiumAccess.dart';
 import 'package:resumebuilder/setting_page/feedBack.dart';
@@ -103,7 +102,7 @@ class SecondRoute extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => allPremiumAccess(),
+                    builder: (context) => slidercurser(),
                   ),
                 );
               },
@@ -116,12 +115,13 @@ class SecondRoute extends StatelessWidget {
                     //color: const Color(0xFF66BB6A),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey,
+                        color: Color.fromARGB(255, 224, 222, 222),
                         blurRadius: 1.0,
                       ),
                     ]),
                 // color: Color.fromARGB(255, 105, 104, 100),
                 padding: EdgeInsets.only(left: 30),
+                margin: EdgeInsets.all(5),
                 child: const Align(
                     alignment: Alignment.centerLeft,
                     child: Text(
@@ -139,11 +139,12 @@ class SecondRoute extends StatelessWidget {
                   //color: const Color(0xFF66BB6A),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey,
+                      color: Color.fromARGB(255, 224, 222, 222),
                       blurRadius: 1.0,
                     ),
                   ]),
               padding: EdgeInsets.only(left: 30),
+              margin: EdgeInsets.all(0.5),
               child: const Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
@@ -459,6 +460,80 @@ class SecondRoute extends StatelessWidget {
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(const CardExamplesApp());
+}
+
+class CardExamplesApp extends StatelessWidget {
+  const CardExamplesApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          colorSchemeSeed: const Color(0xff6750a4), useMaterial3: true),
+      home: Scaffold(
+        // appBar: AppBar(title: const Text('Card Examples')),
+        body: Column(
+          children: const <Widget>[
+            // Spacer(),
+
+            ElevatedCardExample(),
+            enableNotification(),
+            Spacer(),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class ElevatedCardExample extends StatelessWidget {
+  const ElevatedCardExample({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: Card(
+        margin: EdgeInsets.only(top: 3),
+        child: SizedBox(
+          width: 400,
+          height: 40,
+          child: Center(child: Text('ALL Premium Access')),
+        ),
+      ),
+    );
+  }
+}
+
+class enableNotification extends StatelessWidget {
+  const enableNotification({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: Card(
+        margin: EdgeInsets.only(top: 3, left: 5),
+        // margin: const EdgeInsets.only(
+        //   left: 40,
+        //   top: 20,
+        //   right: 40,
+        //   bottom: 20,
+        // ),
+        child: SizedBox(
+          width: 400,
+          height: 40,
+          child: const Align(
+            alignment: Alignment.centerLeft,
+            child: Text('Enable Notification'),
+          ),
         ),
       ),
     );
