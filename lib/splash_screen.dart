@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:resumebuilder/Testing_layout.dart';
-import 'package:resumebuilder/home_main.dart';
-import 'package:resumebuilder/main.dart';
+import 'package:Visitingcardmaker/Testing_layout.dart';
+import 'package:Visitingcardmaker/home_main.dart';
+import 'package:Visitingcardmaker/main.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -44,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Column(
               children: [
                 Image.asset(
-                  'assets/logo-bgr.png',
+                  'assets/visitingcard_logo.png',
                   height: 200.0,
                   width: 200.0,
                 ),

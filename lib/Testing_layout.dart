@@ -171,35 +171,12 @@ class imagelayout extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   List a = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ52Thbpa8P0Iwb582O4r7vftj8SiyY_f78yot4iDXLFBte697XmbUqpgrQvQK7ofXpA8&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSagyJX0TCX0kbye4f3JmwPKgGyGWJMia39H3vRB7aOIDchzmscEej5r5vyTHHNYaLe4A&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlaYflxk42Mr6kEchEmcRxbOSebkHj19QqtQ45KP4P54hgLc0vW2enmBIVO2-9zFLjHs&usqp=CAU",
+    "https://5.imimg.com/data5/SELLER/Default/2021/7/ZX/IS/JS/40074507/visiting-card-premium-gloss-quality-single-side-500x500.png",
+    "https://www.eatlogos.com/business_cards/png/vector_business_card_design.png"
+        "https://5.imimg.com/data5/SELLER/Default/2021/7/ED/TL/IA/40074507/visiting-cards-both-side-velvet-quality-250x250.png",
+    "https://www.eatlogos.com/business_cards/png/vector_business_card_idea.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaN6vaegig9XuXQ8pBUtiBuSUvedMgDfaELLaa844GaIKMZeDnXCHQkzy1PLfLMX8eCyQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGF_axIkkS50QSBwirzJ6ewASYIvYnexGJ-Q&usqp=CAU"
   ];
   @override
   Widget build(BuildContext context) {
@@ -246,7 +223,7 @@ class MyHomePage extends StatelessWidget {
                   Image.network(a[index]),
 
                   //array list in adding log in array postion rleated code //:
-                  
+
                   // loremIpsum,
                   // style: TextStyle(color: Colors.black.withOpacity(0.6)),
                 ]),

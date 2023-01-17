@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:resumebuilder/setting/setting.dart';
+import 'package:Visitingcardmaker/setting/setting.dart';
 
 void main() => runApp(const rateUs());
 
@@ -41,14 +41,14 @@ class MyHomePage extends StatelessWidget {
         child: Text('My Page!'),
       ),
 
-        //           Rate Us
-        //           import 'package:in_app_review/in_app_review.dart';
+      //           Rate Us
+      //           import 'package:in_app_review/in_app_review.dart';
 
-        // final InAppReview inAppReview = InAppReview.instance;
+      // final InAppReview inAppReview = InAppReview.instance;
 
-        // if (await inAppReview.isAvailable()) {
-        //     inAppReview.requestReview();
-        // }
+      // if (await inAppReview.isAvailable()) {
+      //     inAppReview.requestReview();
+      // }
       // drawer: Drawer(
       //   // Add a ListView to the drawer. This ensures the user can scroll
       //   // through the options in the drawer if there isn't enough vertical

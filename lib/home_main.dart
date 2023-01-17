@@ -1,15 +1,15 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:resumebuilder/ApiTesting.dart';
-import 'package:resumebuilder/Tab/categories.dart';
-import 'package:resumebuilder/Tab/feature.dart';
-import 'package:resumebuilder/Tab/list_categories.dart';
-import 'package:resumebuilder/Tab/mydesign.dart';
-import 'package:resumebuilder/Tab/search_categories.dart';
-import 'package:resumebuilder/Testing_layout.dart';
-import 'package:resumebuilder/resume_layout.dart';
-import 'package:resumebuilder/setting/setting.dart';
+import 'package:Visitingcardmaker/ApiTesting.dart';
+import 'package:Visitingcardmaker/Tab/categories.dart';
+import 'package:Visitingcardmaker/Tab/feature.dart';
+import 'package:Visitingcardmaker/Tab/list_categories.dart';
+import 'package:Visitingcardmaker/Tab/mydesign.dart';
+import 'package:Visitingcardmaker/Tab/search_categories.dart';
+import 'package:Visitingcardmaker/Testing_layout.dart';
+import 'package:Visitingcardmaker/resume_layout.dart';
+import 'package:Visitingcardmaker/setting/setting.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({key}) : super(key: key);
@@ -54,8 +54,8 @@ class TabBarDemo extends StatelessWidget {
                 ],
               ),
               title: new Center(
-                  child:
-                      new Text('Resume builder', textAlign: TextAlign.center)),
+                  child: new Text('Visiting Card_Maker',
+                      textAlign: TextAlign.center)),
               leading: GestureDetector(
                 // onTap: () {},
                 child: IconButton(
@@ -88,7 +88,7 @@ class TabBarDemo extends StatelessWidget {
             ),
             body: TabBarView(
               children: [
-                ProfileFourPage(),
+                MyHomePage(),
                 searchcategories(),
                 mydesign(),
               ],

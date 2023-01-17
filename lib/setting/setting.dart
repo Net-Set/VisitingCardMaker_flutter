@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:resumebuilder/home_main.dart';
-import 'package:resumebuilder/setting_page/aboutUs.dart';
-import 'package:resumebuilder/setting_page/allPremiumAccess.dart';
-import 'package:resumebuilder/setting_page/feedBack.dart';
-import 'package:resumebuilder/setting_page/moreApps.dart';
-import 'package:resumebuilder/setting_page/privacyPolicy.dart';
-import 'package:resumebuilder/setting_page/rateUs.dart';
-import 'package:resumebuilder/setting_page/share.dart';
-import 'package:resumebuilder/setting_page/tutorialVideo.dart';
-import 'package:resumebuilder/setting_page/userGuide.dart';
+import 'package:Visitingcardmaker/home_main.dart';
+import 'package:Visitingcardmaker/setting_page/aboutUs.dart';
+import 'package:Visitingcardmaker/setting_page/allPremiumAccess.dart';
+import 'package:Visitingcardmaker/setting_page/feedBack.dart';
+import 'package:Visitingcardmaker/setting_page/moreApps.dart';
+import 'package:Visitingcardmaker/setting_page/privacyPolicy.dart';
+import 'package:Visitingcardmaker/setting_page/rateUs.dart';
+import 'package:Visitingcardmaker/setting_page/share.dart';
+import 'package:Visitingcardmaker/setting_page/tutorialVideo.dart';
+import 'package:Visitingcardmaker/setting_page/userGuide.dart';
 
 // final Color darkBlue = Color.fromARGB(255, 18, 32, 47);
 

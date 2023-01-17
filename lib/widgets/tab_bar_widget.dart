@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:resumebuilder/common/color_constants.dart';
+import 'package:Visitingcardmaker/common/color_constants.dart';
 /*
 Title:TabBarWidget
 Purpose:TabBarWidget

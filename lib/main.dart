@@ -5,12 +5,12 @@ import 'dart:developer';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:resumebuilder/Tab/categories.dart';
-import 'package:resumebuilder/Tab/feature.dart';
-import 'package:resumebuilder/Tab/list_categories.dart';
-import 'package:resumebuilder/Tab/mydesign.dart';
-import 'package:resumebuilder/setting/setting.dart';
-import 'package:resumebuilder/splash_screen.dart';
+import 'package:Visitingcardmaker/Tab/categories.dart';
+import 'package:Visitingcardmaker/Tab/feature.dart';
+import 'package:Visitingcardmaker/Tab/list_categories.dart';
+import 'package:Visitingcardmaker/Tab/mydesign.dart';
+import 'package:Visitingcardmaker/setting/setting.dart';
+import 'package:Visitingcardmaker/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -100,8 +100,8 @@ class TabBarDemo extends StatelessWidget {
                 ],
               ),
               title: new Center(
-                  child:
-                      new Text('Resume builder', textAlign: TextAlign.center)),
+                  child: new Text('Visiting CardMaker',
+                      textAlign: TextAlign.center)),
               leading: GestureDetector(
                 // onTap: () {},
                 child: IconButton(

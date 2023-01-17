@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.resumebuilder">
+    package="com.example.visitingcard">
    <application
-        android:label="resumebuilder"
+        android:label="visitingcardmaker"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

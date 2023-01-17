@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:resumebuilder/setting/setting.dart';
+import 'package:Visitingcardmaker/setting/setting.dart';
 
 void main() => runApp(const feedBack());
 
