@@ -149,6 +149,7 @@
 //   }
 // }
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 void main() {
   runApp(imagelayout());
@@ -172,11 +173,18 @@ class imagelayout extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   List a = [
     "https://5.imimg.com/data5/SELLER/Default/2021/7/ZX/IS/JS/40074507/visiting-card-premium-gloss-quality-single-side-500x500.png",
-    "https://www.eatlogos.com/business_cards/png/vector_business_card_design.png"
-        "https://5.imimg.com/data5/SELLER/Default/2021/7/ED/TL/IA/40074507/visiting-cards-both-side-velvet-quality-250x250.png",
-    "https://www.eatlogos.com/business_cards/png/vector_business_card_idea.png",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaN6vaegig9XuXQ8pBUtiBuSUvedMgDfaELLaa844GaIKMZeDnXCHQkzy1PLfLMX8eCyQ&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGF_axIkkS50QSBwirzJ6ewASYIvYnexGJ-Q&usqp=CAU"
+    "https://i.ibb.co/d09Z0yH/06-Business-Card-link-pages-deleted-page-0001.jpg",
+    "https://i.ibb.co/SxmxvGc/06-Business-Card-link-pages-deleted-page-0002.jpg",
+    // "https://i.ibb.co/PQnmcM5/06-Business-Card-link-pages-deleted-page-0003.jpg",
+    "https://i.ibb.co/7tTZbfM/06-Business-Card-link-pages-deleted-page-0004.jpg",
+    "https://i.ibb.co/xmGyJsM/06-Business-Card-link-pages-deleted-page-0005.jpg",
+    "https://i.ibb.co/SRv6RNc/06-Business-Card-link-pages-deleted-page-0006.jpg",
+    "https://i.ibb.co/R7rdmGz/06-Business-Card-link-pages-deleted-page-0007.jpg",
+    "https://i.ibb.co/XyjSMJ9/06-Business-Card-link-pages-deleted-page-0008.jpg",
+    "https://i.ibb.co/myfjW4J/06-Business-Card-link-pages-deleted-page-0009.jpg",
+    "https://i.ibb.co/YW2mGBZ/06-Business-Card-link-pages-deleted-page-0010.jpg",
+    "https://i.ibb.co/ck3fFGz/06-Business-Card-link-pages-deleted-page-0011.jpg",
+    "https://i.ibb.co/PWFB4NL/06-Business-Card-link-pages-deleted-page-0012.jpg"
   ];
   @override
   Widget build(BuildContext context) {
@@ -236,3 +244,12 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+
+
+
+// Fluttertoast.showToast(
+//     msg: "your message",
+//     toastLength: Toast.LENGTH_SHORT,
+//     gravity: ToastGravity.BOTTOM // Also possible "TOP" and "CENTER"
+//     backgroundColor: "#e74c3c",
+//     textColor: '#ffffff');

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:Visitingcardmaker/setting/setting.dart';
+import 'package:http/http.dart' as http;
 
 void main() => runApp(const aboutus());
 
@@ -18,10 +19,27 @@ class aboutus extends StatelessWidget {
   }
 }
 
+// String responcheck;
+
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key, required this.title});
 
   final String title;
+
+  //API Data fetch related working checking function related working
+  //adding function clear working //:
+
+  Future apicall() async {
+    http.Response response;
+
+    response = await http.get(Uri.parse("https://reqres.in/api/users/2"));
+    if (response.statusCode == 200) {
+      // setState(() {
+      //   responcheck = responcheck.body;
+      // });
+
+    }
+  }
 
   @override
   Widget build(BuildContext context) {

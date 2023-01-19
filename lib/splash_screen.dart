@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   width: 200.0,
                 ),
                 Text(
-                  "ResumeBuilder ",
+                  "VisitingCardMaker",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
