@@ -1,14 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:Visitingcardmaker/home_main.dart';
-import 'package:Visitingcardmaker/setting_page/aboutUs.dart';
-import 'package:Visitingcardmaker/setting_page/allPremiumAccess.dart';
-import 'package:Visitingcardmaker/setting_page/feedBack.dart';
-import 'package:Visitingcardmaker/setting_page/moreApps.dart';
-import 'package:Visitingcardmaker/setting_page/privacyPolicy.dart';
-import 'package:Visitingcardmaker/setting_page/rateUs.dart';
-import 'package:Visitingcardmaker/setting_page/share.dart';
-import 'package:Visitingcardmaker/setting_page/tutorialVideo.dart';
-import 'package:Visitingcardmaker/setting_page/userGuide.dart';
+// import 'package:Visitingcardmaker/home_main.dart';
+// import 'package:Visitingcardmaker/setting_page/aboutUs.dart';
+// import 'package:Visitingcardmaker/setting_page/allPremiumAccess.dart';
+// import 'package:Visitingcardmaker/setting_page/feedBack.dart';
+// import 'package:Visitingcardmaker/setting_page/moreApps.dart';
+// import 'package:Visitingcardmaker/setting_page/privacyPolicy.dart';
+// import 'package:Visitingcardmaker/setting_page/rateUs.dart';
+// import 'package:Visitingcardmaker/setting_page/share.dart';
+// import 'package:Visitingcardmaker/setting_page/tutorialVideo.dart';
+// import 'package:Visitingcardmaker/setting_page/userGuide.dart';
+
+import 'package:VisitingCardMaker/setting_page/privacyPolicy.dart';
+import 'package:VisitingCardMaker/setting_page/moreApps.dart';
+import 'package:VisitingCardMaker/setting_page/feedBack.dart';
+import 'package:VisitingCardMaker/setting_page/allPremiumAccess.dart';
+import 'package:VisitingCardMaker/setting_page/aboutUs.dart';
+import 'package:VisitingCardMaker/setting_page/rateUs.dart';
+import 'package:VisitingCardMaker/setting_page/userGuide.dart';
+import 'package:VisitingCardMaker/setting_page/tutorialVideo.dart';
+import 'package:VisitingCardMaker/setting_page/share.dart';
+
+import '../home_main.dart';
 
 // final Color darkBlue = Color.fromARGB(255, 18, 32, 47);
 

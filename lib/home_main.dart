@@ -1,15 +1,27 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:Visitingcardmaker/ApiTesting.dart';
-import 'package:Visitingcardmaker/Tab/categories.dart';
-import 'package:Visitingcardmaker/Tab/feature.dart';
-import 'package:Visitingcardmaker/Tab/list_categories.dart';
-import 'package:Visitingcardmaker/Tab/mydesign.dart';
-import 'package:Visitingcardmaker/Tab/search_categories.dart';
-import 'package:Visitingcardmaker/Testing_layout.dart';
-import 'package:Visitingcardmaker/resume_layout.dart';
-import 'package:Visitingcardmaker/setting/setting.dart';
+// import 'package:Visitingcardmaker/ApiTesting.dart';
+// import 'package:Visitingcardmaker/Tab/categories.dart';
+// import 'package:Visitingcardmaker/Tab/feature.dart';
+// import 'package:Visitingcardmaker/Tab/list_categories.dart';
+// import 'package:Visitingcardmaker/Tab/mydesign.dart';
+// import 'package:Visitingcardmaker/Tab/search_categories.dart';
+// import 'package:Visitingcardmaker/Testing_layout.dart';
+// import 'package:Visitingcardmaker/resume_layout.dart';
+// import 'package:Visitingcardmaker/setting/setting.dart';
+
+import 'package:VisitingCardMaker/ApiTesting.dart';
+import 'package:VisitingCardMaker/Tab/categories.dart';
+import 'package:VisitingCardMaker/Tab/categories.dart';
+import 'package:VisitingCardMaker/Tab/feature.dart';
+import 'package:VisitingCardMaker/Tab/list_categories.dart';
+import 'package:VisitingCardMaker/Tab/mydesign.dart';
+
+import 'package:VisitingCardMaker/Tab/search_categories.dart';
+import 'package:VisitingCardMaker/Testing_layout.dart';
+import 'package:VisitingCardMaker/resume_layout.dart';
+import 'package:VisitingCardMaker/setting/setting.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({key}) : super(key: key);
@@ -88,7 +100,8 @@ class TabBarDemo extends StatelessWidget {
             ),
             body: TabBarView(
               children: [
-                MyHomePage(),
+                // MyHomePage(),
+                Home(),
                 searchcategories(),
                 mydesign(),
               ],

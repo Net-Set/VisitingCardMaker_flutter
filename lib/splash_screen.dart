@@ -1,9 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:Visitingcardmaker/Testing_layout.dart';
-import 'package:Visitingcardmaker/home_main.dart';
-import 'package:Visitingcardmaker/main.dart';
+// import 'package:Visitingcardmaker/Testing_layout.dart';
+// import 'package:Visitingcardmaker/home_main.dart';
+// import 'package:Visitingcardmaker/main.dart';
+
+import 'package:VisitingCardMaker/Testing_layout.dart';
+import 'package:VisitingCardMaker/home_main.dart';
+import 'package:VisitingCardMaker/main.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

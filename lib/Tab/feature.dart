@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Visitingcardmaker/setting/setting.dart';
+// import 'package:Visitingcardmaker/setting/setting.dart';
+import 'package:VisitingCardMaker/setting/setting.dart';
 
 final Color darkBlue = Color.fromARGB(255, 18, 32, 47);
 

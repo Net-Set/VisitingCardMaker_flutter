@@ -1,6 +1,10 @@
+import 'dart:convert';
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
-import 'package:Visitingcardmaker/setting/setting.dart';
+// import 'package:Visitingcardmaker/setting/setting.dart';
 import 'package:http/http.dart' as http;
+import 'package:VisitingCardMaker/setting/setting.dart';
 
 void main() => runApp(const aboutus());
 
@@ -39,6 +43,11 @@ class MyHomePage extends StatelessWidget {
       // });
 
     }
+    log('Api Data print//:');
+    log(response.body);
+    JsonEncoder encoder = new JsonEncoder.withIndent('  ');
+    String prettyprint = encoder.convert(json);
+    print(prettyprint);
   }
 
   @override

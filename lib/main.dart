@@ -5,12 +5,19 @@ import 'dart:developer';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:Visitingcardmaker/Tab/categories.dart';
-import 'package:Visitingcardmaker/Tab/feature.dart';
-import 'package:Visitingcardmaker/Tab/list_categories.dart';
-import 'package:Visitingcardmaker/Tab/mydesign.dart';
-import 'package:Visitingcardmaker/setting/setting.dart';
-import 'package:Visitingcardmaker/splash_screen.dart';
+// import 'package:Visitingcardmaker/Tab/categories.dart';
+// import 'package:Visitingcardmaker/Tab/feature.dart';
+// import 'package:Visitingcardmaker/Tab/list_categories.dart';
+// import 'package:Visitingcardmaker/Tab/mydesign.dart';
+// import 'package:Visitingcardmaker/setting/setting.dart';
+// import 'package:Visitingcardmaker/splash_screen.dart';
+
+import 'package:VisitingCardMaker/Tab/categories.dart';
+import 'package:VisitingCardMaker/Tab/feature.dart';
+import 'package:VisitingCardMaker/Tab/list_categories.dart';
+import 'package:VisitingCardMaker/Tab/mydesign.dart';
+import 'package:VisitingCardMaker/setting/setting.dart';
+import 'package:VisitingCardMaker/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
